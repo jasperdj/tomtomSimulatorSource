@@ -1,0 +1,70 @@
+local _directionIsRight = true
+local _moving = false
+local _self
+
+--[[
+TODO's 
+- Make Tomtom jump more realistic
+	- Finish animation
+	- Smooth jump angle following curvature fitted to total duration jump.
+- Cookies
+
+]]
+
+
+function init(self)
+	msg.post("#tomtomSprite", "play_animation", {id = hash("walking")})
+	self.velocity = vmath.vector3(0, 0, 0)
+	_self = self
+end
+
+function final(self)
+	-- Add finalization code here
+	-- Remove this function if not needed
+end
+
+function update(self, dt)
+	go.set_position(go.get_position() + vmath.vector3(self.velocity.x * dt, 0, 0))
+end
+
+function on_message(self, message_id, message, sender)
+	if message_id == hash("left") then
+		setDirectionIsRight(false)
+	elseif message_id == hash("right") then 
+		setDirectionIsRight(true)
+	end	
+
+	if (message_id == hash("left") or hash("right")) then
+		setMoving((message.value == 1 and true or false))
+	end
+end
+
+function setMoving(moving)
+	if (_moving ~= moving) then
+		_moving = moving
+		if (_moving == true) then 
+			msg.post("#tomtomSprite", "play_animation", {id = hash("walking")})
+			_self.velocity.x = (_directionIsRight and 500 or -500)
+		else
+			msg.post("#tomtomSprite", "play_animation", {id = hash("idle")})
+			_self.velocity.x = 0
+		end
+	end
+end
+
+function setDirectionIsRight(directionIsRight)
+	if (_directionIsRight ~= directionIsRight) then
+		_directionIsRight = directionIsRight
+		sprite.set_hflip("#tomtomSprite", not _directionIsRight)
+	end
+end
+
+function on_input(self, action_id, action)
+	-- Add input-handling code here
+	-- Remove this function if not needed
+end
+
+function on_reload(self)
+	-- Add reload-handling code here
+	-- Remove this function if not needed
+end

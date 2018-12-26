@@ -1,0 +1,433 @@
+image: "/main/images/tomtom/tomtomMapGrid.png"
+tile_width: 140
+tile_height: 140
+tile_margin: 0
+tile_spacing: 0
+collision: "/main/images/tomtom/tomtomMapGridCollision.png"
+material_tag: "tile"
+convex_hulls {
+  index: 0
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 0
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 0
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 0
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 0
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 0
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 4
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 4
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 4
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 4
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 4
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 4
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 4
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 8
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 12
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 12
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 12
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 12
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 12
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 12
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 16
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 20
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 20
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 20
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 20
+  count: 6
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 26
+  count: 7
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 33
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 33
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 37
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 37
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 37
+  count: 5
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 42
+  count: 6
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 48
+  count: 6
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 54
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 54
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 58
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 58
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 58
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 62
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 62
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 66
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 66
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 70
+  count: 4
+  collision_group: "one_sided"
+}
+convex_hulls {
+  index: 74
+  count: 4
+  collision_group: "one_sided"
+}
+convex_hulls {
+  index: 78
+  count: 0
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 78
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 78
+  count: 0
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 78
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 78
+  count: 4
+  collision_group: "obstacle"
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+convex_hulls {
+  index: 82
+  count: 0
+  collision_group: ""
+}
+collision_groups: "ladder"
+collision_groups: "ladder_end"
+collision_groups: "obstacle"
+collision_groups: "one_sided"
+extrude_borders: 2
+inner_padding: 0

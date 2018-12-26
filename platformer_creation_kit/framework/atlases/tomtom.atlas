@@ -1,0 +1,350 @@
+images {
+  image: "/main/images/tomtom/jumping1.png"
+}
+images {
+  image: "/main/images/tomtom/jumping10.png"
+}
+images {
+  image: "/main/images/tomtom/jumping11.png"
+}
+images {
+  image: "/main/images/tomtom/jumping12.png"
+}
+images {
+  image: "/main/images/tomtom/jumping13.png"
+}
+images {
+  image: "/main/images/tomtom/jumping2.png"
+}
+images {
+  image: "/main/images/tomtom/jumping3.png"
+}
+images {
+  image: "/main/images/tomtom/jumping4.png"
+}
+images {
+  image: "/main/images/tomtom/jumping5.png"
+}
+images {
+  image: "/main/images/tomtom/jumping6.png"
+}
+images {
+  image: "/main/images/tomtom/jumping7.png"
+}
+images {
+  image: "/main/images/tomtom/jumping8.png"
+}
+images {
+  image: "/main/images/tomtom/jumping9.png"
+}
+images {
+  image: "/main/images/tomtom/running1.png"
+}
+images {
+  image: "/main/images/tomtom/running10.png"
+}
+images {
+  image: "/main/images/tomtom/running11.png"
+}
+images {
+  image: "/main/images/tomtom/running12.png"
+}
+images {
+  image: "/main/images/tomtom/running13.png"
+}
+images {
+  image: "/main/images/tomtom/running2.png"
+}
+images {
+  image: "/main/images/tomtom/running3.png"
+}
+images {
+  image: "/main/images/tomtom/running4.png"
+}
+images {
+  image: "/main/images/tomtom/running5.png"
+}
+images {
+  image: "/main/images/tomtom/running6.png"
+}
+images {
+  image: "/main/images/tomtom/running7.png"
+}
+images {
+  image: "/main/images/tomtom/running8.png"
+}
+images {
+  image: "/main/images/tomtom/running9.png"
+}
+images {
+  image: "/main/images/tomtom/sliding1.png"
+}
+images {
+  image: "/main/images/tomtom/sliding10.png"
+}
+images {
+  image: "/main/images/tomtom/sliding11.png"
+}
+images {
+  image: "/main/images/tomtom/sliding12.png"
+}
+images {
+  image: "/main/images/tomtom/sliding2.png"
+}
+images {
+  image: "/main/images/tomtom/sliding3.png"
+}
+images {
+  image: "/main/images/tomtom/sliding4.png"
+}
+images {
+  image: "/main/images/tomtom/sliding5.png"
+}
+images {
+  image: "/main/images/tomtom/sliding6.png"
+}
+images {
+  image: "/main/images/tomtom/sliding7.png"
+}
+images {
+  image: "/main/images/tomtom/sliding8.png"
+}
+images {
+  image: "/main/images/tomtom/sliding9.png"
+}
+images {
+  image: "/main/images/tomtom/transition1.png"
+}
+images {
+  image: "/main/images/tomtom/transition10.png"
+}
+images {
+  image: "/main/images/tomtom/transition11.png"
+}
+images {
+  image: "/main/images/tomtom/transition12.png"
+}
+images {
+  image: "/main/images/tomtom/transition2.png"
+}
+images {
+  image: "/main/images/tomtom/transition3.png"
+}
+images {
+  image: "/main/images/tomtom/transition4.png"
+}
+images {
+  image: "/main/images/tomtom/transition5.png"
+}
+images {
+  image: "/main/images/tomtom/transition6.png"
+}
+images {
+  image: "/main/images/tomtom/transition7.png"
+}
+images {
+  image: "/main/images/tomtom/transition8.png"
+}
+images {
+  image: "/main/images/tomtom/transition9.png"
+}
+images {
+  image: "/main/images/tomtom/walking1.png"
+}
+images {
+  image: "/main/images/tomtom/walking10.png"
+}
+images {
+  image: "/main/images/tomtom/walking11.png"
+}
+images {
+  image: "/main/images/tomtom/walking12.png"
+}
+images {
+  image: "/main/images/tomtom/walking2.png"
+}
+images {
+  image: "/main/images/tomtom/walking3.png"
+}
+images {
+  image: "/main/images/tomtom/walking4.png"
+}
+images {
+  image: "/main/images/tomtom/walking5.png"
+}
+images {
+  image: "/main/images/tomtom/walking6.png"
+}
+images {
+  image: "/main/images/tomtom/walking7.png"
+}
+images {
+  image: "/main/images/tomtom/walking8.png"
+}
+images {
+  image: "/main/images/tomtom/walking9.png"
+}
+animations {
+  id: "jumping"
+  images {
+    image: "/main/images/tomtom/jumping12.png"
+  }
+  images {
+    image: "/main/images/tomtom/jumping8.png"
+  }
+  images {
+    image: "/main/images/tomtom/jumping11.png"
+  }
+  images {
+    image: "/main/images/tomtom/jumping12.png"
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 15
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "walking"
+  images {
+    image: "/main/images/tomtom/walking1.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking2.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking3.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking4.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking5.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking6.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking7.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking8.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking9.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking10.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking11.png"
+  }
+  images {
+    image: "/main/images/tomtom/walking12.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 15
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "idle"
+  images {
+    image: "/main/images/tomtom/walking1.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 1
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "sliding"
+  images {
+    image: "/main/images/tomtom/sliding1.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding2.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding3.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding4.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding5.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding6.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding7.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding8.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding9.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding10.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding11.png"
+  }
+  images {
+    image: "/main/images/tomtom/sliding12.png"
+  }
+  playback: PLAYBACK_ONCE_FORWARD
+  fps: 20
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+animations {
+  id: "running"
+  images {
+    image: "/main/images/tomtom/running1.png"
+  }
+  images {
+    image: "/main/images/tomtom/running2.png"
+  }
+  images {
+    image: "/main/images/tomtom/running3.png"
+  }
+  images {
+    image: "/main/images/tomtom/running4.png"
+  }
+  images {
+    image: "/main/images/tomtom/running5.png"
+  }
+  images {
+    image: "/main/images/tomtom/running6.png"
+  }
+  images {
+    image: "/main/images/tomtom/running7.png"
+  }
+  images {
+    image: "/main/images/tomtom/running8.png"
+  }
+  images {
+    image: "/main/images/tomtom/running9.png"
+  }
+  images {
+    image: "/main/images/tomtom/running10.png"
+  }
+  images {
+    image: "/main/images/tomtom/running11.png"
+  }
+  images {
+    image: "/main/images/tomtom/running12.png"
+  }
+  images {
+    image: "/main/images/tomtom/running13.png"
+  }
+  playback: PLAYBACK_LOOP_FORWARD
+  fps: 60
+  flip_horizontal: 0
+  flip_vertical: 0
+}
+margin: 0
+extrude_borders: 0
+inner_padding: 0
