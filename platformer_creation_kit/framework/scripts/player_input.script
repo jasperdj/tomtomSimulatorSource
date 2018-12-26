@@ -19,13 +19,13 @@ end
 function on_input(self, action_id, action)
 	if not is_paused() then
 	    if action_id == input_left then
-	        msg.post("#test", input_left, { value = action.value})
+	        msg.post("#movement", input_left, { value = action.value})
 	    elseif action_id == input_right then
-	        msg.post("#test", input_right, { value = action.value})
+			msg.post("#movement", input_right, { value = action.value})
 	    elseif action_id == input_up then
-	    	msg.post("#test", input_up, { value = action.value })
+			msg.post("#movement", input_up, { value = action.value })
 	    elseif action_id == input_down then
-	    	msg.post("#test", input_down, { value = action.value })
+			msg.post("#movement", input_down, { value = action.value })
 	    elseif action_id == input_jump then
 	        --[[if action.pressed then
 	            msg.post("#movement", input_jump, { pressed = true})

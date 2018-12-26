@@ -1,7 +1,5 @@
-go.property("is_shown", true)
+go.property("is_shown", false)
 
 function init(self)
-    if not self.is_shown then
-    	msg.post("#gui", "hide")
-    end 
+    	--msg.post("#gui", "hide")
 end

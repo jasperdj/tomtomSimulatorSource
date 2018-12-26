@@ -47,7 +47,7 @@ key_trigger {
   action: "gravity"
 }
 mouse_trigger {
-  input: MOUSE_BUTTON_1
+  input: MOUSE_BUTTON_LEFT
   action: "click"
 }
 touch_trigger {
